@@ -1,0 +1,26 @@
+.MobileCompany div:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.MobileCompany__company-name-buttons input {
+    padding: 4px 8px;
+}
+.MobileCompany__clients-filter input {
+    padding: 4px 8px;
+}
+
+.MobileCompany__add-button input{
+    padding: 4px 8px;
+}
+
+.MobileCompany__table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.MobileCompany__table table tbody tr {
+    border-top: 1px solid #CECECE;
+}
+
+.MobileCompany__table table td {
+    padding: 10px;
+}

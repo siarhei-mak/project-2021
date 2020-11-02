@@ -1,0 +1,26 @@
+.AddClient {
+    padding: 10px;
+    background-color: #E8E8E8;
+    border: 1px solid hsl(0, 0%, 81%);
+}
+
+.AddClient caption {
+    font-weight: bold;
+    font-size:17px;
+}
+
+.AddClient input {
+    border: 1px solid hsl(0, 0%, 81%);
+    padding: 10px;
+}
+
+.AddClient td {
+    padding: 5px;
+}
+
+.AddClient input[type="button"]{
+    margin-right: 10px;
+    padding: 5px;
+    border-color: rgb(118, 118, 118);
+}
+

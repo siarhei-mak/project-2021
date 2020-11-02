@@ -1,0 +1,27 @@
+/* Ячейки с товарами    */
+.Product > td {
+    border: 1px solid #ccc;
+    padding: 2px;
+    white-space: nowrap;
+    max-width:200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+tr.Product.active {
+    background-color: #FF7F50;
+}
+
+
+
+.Product > td > button {
+    padding: 5px;
+    margin-left: 3px;
+}
+
+.Product > td:last-child {
+    text-align: center;
+}

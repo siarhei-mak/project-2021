@@ -1,0 +1,73 @@
+/* Таблица и заголовок */
+table.Shop  {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 50%; 
+}
+
+table.Shop>thead>tr>td {
+    border: 1px solid #ccc;
+    
+}
+
+table.Shop > caption {
+    caption-side: top;
+    font-size: 25px;
+    margin-bottom: 10px;
+}/* Ячейки с товарами */
+.Product > td {
+    border: 1px solid #ccc;
+    padding: 2px;
+    white-space: nowrap;
+    max-width:200px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+tr.Product.active {
+    background-color: #FF7F50;
+}
+
+
+
+.Product > td > button {
+    padding: 5px;
+    margin-left: 3px;
+}
+
+.Product > td:last-child {
+    text-align: center;
+}.EditProduct {
+    margin-top: 15px;
+}
+
+.EditProduct div.product-field {
+    width: 100%;
+    display: block;
+    padding: 2px 0;
+    clear:both;
+    text-align: center;
+}
+
+.EditProduct label {
+    float:left;
+}
+
+
+
+.EditProduct p {
+    padding: 2px 0;
+    margin: 0;
+}
+
+.EditProduct .error-message {
+    color: red;
+}.test {
+    color: #000;
+}
+/*# sourceMappingURL=bundle.css.map*/

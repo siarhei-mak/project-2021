@@ -1,0 +1,96 @@
+.MobileClient__blocked {
+    background: rgb(220,53,69);
+}
+
+.MobileClient__active {
+    background: rgb(41,167,69);
+}
+
+.MobileClient input[type="button"] {
+    padding: 4px 8px;
+    width: 100%;
+}.EditClient {
+    padding: 10px;
+    background-color: #E8E8E8;
+    border: 1px solid hsl(0, 0%, 81%);
+}
+
+.EditClient caption {
+    font-weight: bold;
+    font-size:17px;
+}
+
+.EditClient {
+    /* border-collapse: collapse; */
+}
+.EditClient input {
+    border: 1px solid hsl(0, 0%, 81%);
+    padding: 10px;
+}
+
+.EditClient td {
+    padding: 5px;
+}
+
+.EditClient input[type="button"]{
+    margin-right: 10px;
+    padding: 5px;
+    border-color: rgb(118, 118, 118);
+}
+
+.AddClient {
+    padding: 10px;
+    background-color: #E8E8E8;
+    border: 1px solid hsl(0, 0%, 81%);
+}
+
+.AddClient caption {
+    font-weight: bold;
+    font-size:17px;
+}
+
+.AddClient {
+    /* border-collapse: collapse; */
+}
+.AddClient input {
+    border: 1px solid hsl(0, 0%, 81%);
+    padding: 10px;
+}
+
+.AddClient td {
+    padding: 5px;
+}
+
+.AddClient input[type="button"]{
+    margin-right: 10px;
+    padding: 5px;
+    border-color: rgb(118, 118, 118);
+}
+
+.MobileCompany div:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.MobileCompany__company-name-buttons input {
+    padding: 4px 8px;
+}
+.MobileCompany__clients-filter input {
+    padding: 4px 8px;
+}
+
+.MobileCompany__add-button input{
+    padding: 4px 8px;
+}
+
+.MobileCompany__table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.MobileCompany__table table tbody tr {
+    border-top: 1px solid #CECECE;
+}
+
+.MobileCompany__table table td {
+    padding: 10px;
+}
+/*# sourceMappingURL=bundle.css.map*/

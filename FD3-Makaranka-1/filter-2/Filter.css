@@ -1,0 +1,73 @@
+.Filter
+{
+  width: 200px;
+  padding: 10px;
+}
+
+.Filter .Filter__panel
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Filter .Filter__panel .Filter__sort
+{
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+.Filter .Filter__panel .Filter__sort:hover {
+  border-color: rgb(2, 90, 90);
+  cursor: pointer;
+}
+
+.Filter .Filter__panel .Filter__search
+{
+  font-size: 14px;
+  padding: 10px;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.Filter .Filter__panel .Filter__search:focus {
+  outline: none;
+  border: solid teal 1px;
+}
+
+.Filter .Filter__panel .Filter__button
+{
+  height: 30px;
+  min-width: 70px;
+  border-radius: 10px;
+  border: none;
+  background-color:  rgb(124, 193, 240);
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.Filter .Filter__panel .Filter__button:hover {
+  background-color: rgb(253, 9, 9);
+  cursor: pointer;
+}
+
+.Filter .Filter__panel .Filter__button:focus {
+  outline: none;
+}
+
+.Filter .Filter__select
+{
+  width: 100%;
+  padding: 10px;
+  border: solid  1px;
+  font-size: 14px;
+  margin:0 30px;
+
+}
+
+.Filter .Filter__option
+{
+  margin-bottom: 5px;
+}

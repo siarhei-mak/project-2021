@@ -1,0 +1,12 @@
+.MobileClient__blocked {
+    background: rgb(220,53,69);
+}
+
+.MobileClient__active {
+    background: rgb(41,167,69);
+}
+
+.MobileClient input[type="button"] {
+    padding: 4px 8px;
+    width: 100%;
+}

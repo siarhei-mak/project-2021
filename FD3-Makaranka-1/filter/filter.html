@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta charset="utf-8" />
+  <title>Filter</title>
+</head> 
+<body> 
+  <div id="container"></div> 
+      
+  <script src="https://unpkg.com/react@15/dist/react.js"></script> 
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script> 
+      
+  <script src="Filter.js"></script>
+  <link rel="stylesheet" type="text/css" href="Filter.css" />
+
+  <script>
+    
+    var colorArr=[ 
+      {code:1,text:'Yellow red'},
+      {code:2,text:'Green pink'},
+      {code:3,text:'Blue brown grey'},
+      {code:4,text:'Brown'},
+      {code:5,text:'White'},
+      {code:6,text:'Red white'},
+      {code:7,text:'Orange-Black'},
+      {code:8,text:'Pink'},
+      {code:9,text:'black'},
+      {code:10,text:'grey'},
+      {code:11,text:'red grey purple'}, 
+      {code:12,text:'Gold bronze emerald'},          
+    ];
+
+    
+    ReactDOM.render(
+      React.createElement(Filter,{color:colorArr}), 
+      document.getElementById('container') 
+    );
+
+  </script>
+
+</body> 
+</html>

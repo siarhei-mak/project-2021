@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ishop2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            margin: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+
+    <script src="BeerTable.js"></script>
+    <link rel="stylesheet" type="text/css" href="BeerTable.css" />
+    <script src="BeerRecord.js"></script>
+    <link rel="stylesheet" type="text/css" href="BeerRecord.css" />
+
+    <script>
+        (() => {
+            'use strict';
+
+            // данные для заполнения в компоненте
+            let shopName = 'ishop2';
+            // Класс для стилизации таблицы
+            let tableStylingClass = 'BeerTable';
+            // Beer
+            let shopItems = [
+                {
+                    name: 'Beer-1',
+                    price: 2,
+                    url: 'http://fe.it-academy.by/Sites/0028978/beer-map.html',
+                    quantity: 5,
+                },
+                {
+                    name: 'Beer-2',
+                    price: 4,
+                    url: 'http://fe.it-academy.by/Sites/0028978/beer-map.html',
+                    quantity: 7,
+                },
+                {
+                    name: 'Beer-3',
+                    price: 1,
+                    url: 'http://fe.it-academy.by/Sites/0028978/beer-map.html',
+                    quantity: 3,
+                },
+                {
+                    name: 'Beer-4',
+                    price: 4.5,
+                    url: 'http://fe.it-academy.by/Sites/0028978/beer-map.html',
+                    quantity: 1,
+                },
+                {
+                    name: 'Beer-5',
+                    price: 7,
+                    url: 'http://fe.it-academy.by/Sites/0028978/beer-map.html',
+                    quantity: 4,
+                },
+                {
+                    name: 'Beer-6',
+                    price: 5,
+                    url: 'http://fe.it-academy.by/Sites/0028978/beer-map.html',
+                    quantity: 3,
+                },
+            ];
+
+            ReactDOM.render(
+                React.createElement(BeerTable, { tableClassName: tableStylingClass, name: shopName, items: shopItems }),
+                document.getElementById('container')
+            );
+
+        })();
+    </script>
+
+</body>
+
+</html>

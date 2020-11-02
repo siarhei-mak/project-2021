@@ -1,0 +1,9 @@
+[
+    {"code": 1,  "name": "beer-1",    "price": 11.00, "quantity": 0,  "url":"http://fe.it-academy.by/Sites/0028978/images/beer/Game-of-Thrones-Dragon-1.jpeg"},
+    {"code": 2,  "name": "beer-2",    "price": 5.10,  "quantity": 12, "url":"http://fe.it-academy.by/Sites/0028978/images/beer/Game-of-Thrones-Bend-the-Knee.jpeg"},
+    {"code": 3,  "name": "beer-3",    "price": 13.30, "quantity": 1,  "url":"http://fe.it-academy.by/Sites/0028978/images/beer/Bend-the-Knee-1.jpeg"},
+    {"code": 4,  "name": "beer-4",    "price": 8.0,  "quantity": 14, "url":"http://fe.it-academy.by/Sites/0028978/images/beer/Game-of-Thrones-Tree-1.jpeg"},
+    {"code": 5,  "name": "beer-5",    "price": 8.5,  "quantity": 32, "url":"http://fe.it-academy.by/Sites/0028978/images/beer/beer-hobbit-33.png"},
+    {"code": 6,  "name": "beer-6",    "price": 9.54,  "quantity": 13, "url":"http://fe.it-academy.by/Sites/0028978/images/beer/beer-hobbit-22.png"}
+
+]

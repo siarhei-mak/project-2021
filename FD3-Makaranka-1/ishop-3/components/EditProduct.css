@@ -1,0 +1,26 @@
+.EditProduct {
+    margin-top: 15px;
+}
+
+.EditProduct div.product-field {
+    width: 100%;
+    display: block;
+    padding: 2px 0;
+    clear:both;
+    text-align: center;
+}
+
+.EditProduct label {
+    float:left;
+}
+
+
+
+.EditProduct p {
+    padding: 2px 0;
+    margin: 0;
+}
+
+.EditProduct .error-message {
+    color: red;
+}

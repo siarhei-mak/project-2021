@@ -1,0 +1,19 @@
+/* Таблица и заголовок */
+table.Shop  {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 50%; 
+}
+
+table.Shop>thead>tr>td {
+    border: 1px solid #ccc;
+    
+}
+
+table.Shop > caption {
+    caption-side: top;
+    font-size: 25px;
+    margin-bottom: 10px;
+}

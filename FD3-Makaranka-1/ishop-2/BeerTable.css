@@ -1,0 +1,52 @@
+.BeerTable {
+    margin: 0 auto;
+}
+
+/*
+.BeerTable td {
+    cursor: cell;
+}
+*/
+.BeerTable th {
+    cursor: default;
+}
+
+.BeerTable,
+.BeerTable th,
+.BeerTable td {
+    border: 1px solid #090440;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+.BeerTable caption {
+    font: 2em/1.5 serif;
+    margin-bottom: .5em;
+}
+
+.BeerTable th[data-type='name'] {
+    width: 5em;
+}
+
+.BeerTable th[data-type='count'],
+.BeerTable th[data-type='price'] {
+    width: 3em;
+}
+
+.BeerTable th[data-type='url'] {
+    width: 15em;
+}
+
+.BeerTable .tal {
+    text-align-last: left;
+}
+
+.BeerTable .highlight {
+    background-color: rgb(155, 2, 2);
+}
+
+.BeerTable td input {
+    width: 100%;
+    cursor: pointer;
+}
