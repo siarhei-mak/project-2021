@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test HEADER with shallow HEADER 1`] = `
+<div
+  className="Header"
+>
+  <NavLink
+    activeClassName="ActivePageLink"
+    aria-current="page"
+    className="PageLink"
+    exact={true}
+    to="/"
+  >
+    <div
+      className="banner_title_shop"
+    >
+      BEER-bar
+    </div>
+  </NavLink>
+  <div
+    className="HeaderCategory"
+  >
+    <HeaderCategory
+      categories={
+        Array [
+          Object {
+            "category": "lightBeer",
+            "id": 1,
+            "name": "Светлое пиво",
+          },
+          Object {
+            "category": "darkBeer",
+            "id": 2,
+            "name": "Темное пиво",
+          },
+          Object {
+            "category": "kraftBeer",
+            "id": 3,
+            "name": "Крафтовое пиво",
+          },
+          Object {
+            "category": "filmBeer",
+            "id": 4,
+            "name": "Пиво по фильмам",
+          },
+          Object {
+            "category": "setBeer",
+            "id": 5,
+            "name": "Пивной сет",
+          },
+          Object {
+            "category": "snack",
+            "id": 6,
+            "name": "Закуска",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

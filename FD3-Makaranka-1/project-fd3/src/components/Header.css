@@ -1,0 +1,24 @@
+.Header{
+  background-color: rgb(85, 72, 5);
+  /* border: 1px solid silver; */
+  /*height: 15vh;*/
+  box-sizing: border-box;
+  display: flex;
+flex-direction: column;
+align-content: flex-end;
+justify-content: flex-end;
+min-width: 360px;
+}
+.Header .banner_title_shop{
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(154, 223, 27);
+  padding:0px 0px;
+
+}
+
+.Header .HeaderCategory{
+  width: 100%;
+ align-self: flex-end;
+}

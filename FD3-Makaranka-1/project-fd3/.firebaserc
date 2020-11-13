@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "shopapp": "beerr-barr",
+    "default": "beerr-barr"
+  }
+}

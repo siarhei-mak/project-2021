@@ -1,0 +1,17 @@
+.Backdrop{
+  z-index: 50;
+  background: rgba(0, 0, 0, .7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+ /* animation: changeColorBackground  .50s  ease-out;*/
+}
+
+@keyframes changeColorBackground {
+  from {background: rgba(212, 22, 197, 0.8);
+  opacity: 0.3;}
+  to {background:  rgba(0, 0, 0, .7);
+  opacity: 1;}
+  }

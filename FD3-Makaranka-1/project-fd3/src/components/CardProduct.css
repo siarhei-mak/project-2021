@@ -1,0 +1,11 @@
+.CardProduct{
+  background-color: lightblue;
+  min-height: 75vh;
+  min-width: 360px;
+ 
+
+}
+.CardProduct .Button_allListProd{
+  margin: 2px;
+}
+

@@ -16,14 +16,14 @@ table.Shop > caption {
     caption-side: top;
     font-size: 25px;
     margin-bottom: 10px;
-}/* Ячейки с товарами */
+}/* Ячейки с товарами    */
 .Product > td {
     border: 1px solid #ccc;
     padding: 2px;
     white-space: nowrap;
     max-width:200px;
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
     -moz-user-select: none;
     -khtml-user-select: none;
     user-select: none;
@@ -42,7 +42,8 @@ tr.Product.active {
 
 .Product > td:last-child {
     text-align: center;
-}.EditProduct {
+}
+.EditProduct {
     margin-top: 15px;
 }
 

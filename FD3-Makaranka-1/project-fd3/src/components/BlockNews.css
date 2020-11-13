@@ -1,0 +1,22 @@
+.BlockNews div {
+
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: inset 0px 0px 277px 3px #313233cc;
+    -webkit-box-shadow: inset 0px 0px 277px 3px #313233cc;
+    -ms-box-shadow:inset 0px 0px 277px 3px #313233cc;
+  
+   
+}
+.BlockNews div span {
+  display: inline-block;
+  padding-top:0%;
+  color:white;
+    
+  }
+.BlockNews div:hover span {
+padding-top:10%;
+  font-size: 120%;
+   transition: 0.3s linear;
+}

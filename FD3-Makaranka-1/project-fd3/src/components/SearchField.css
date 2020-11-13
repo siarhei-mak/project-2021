@@ -1,0 +1,16 @@
+.SearchField{
+  width: 200px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+.SearchField  .range_summ{
+  padding: 0 10px;
+  width: 90%;
+  
+  display: block;
+}
+
+.SearchField  .range_summ label{
+  display: block;
+
+}

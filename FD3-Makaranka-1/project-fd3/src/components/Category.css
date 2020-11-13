@@ -1,0 +1,25 @@
+.Category{
+  background-color: lightcyan;
+  min-height: 75vh;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  min-width: 360px;
+}
+
+.Category .block_product{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+  align-content: flex-start;
+  align-items: flex-end;
+  
+}
+.Category .filter_field{
+display: inline-block;
+height: 100%;
+border: 2px #185299 solid;
+border-radius: 5px;
+width: 200px;
+}

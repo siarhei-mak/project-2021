@@ -1,0 +1,12 @@
+.Layout{
+ 
+}
+
+@media (max-width: 440px) {
+  
+  .Layout{
+    min-width: 360px;
+   
+  }
+
+}

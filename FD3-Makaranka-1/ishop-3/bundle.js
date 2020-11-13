@@ -29186,7 +29186,7 @@ exports.unstable_wrap = unstable_wrap;
 /* 19 */
 /***/ (function(module, exports) {
 
-module.exports = [{"code":1,"name":"product1","price":1125,"quantity":0,"url":"https://content2.onliner.by/falseurl.jpeg"},{"code":2,"name":"product2","price":599,"quantity":12,"url":"https://content2.onliner.by/falseurl.jpeg"},{"code":3,"name":"product3","price":1312.31,"quantity":1,"url":"https://content2.onliner.by/falseurl.jpeg"},{"code":4,"name":"product4","price":831.08,"quantity":14,"url":"https://content2.onliner.by/falseurl.jpeg"},{"code":5,"name":"product5","price":874.96,"quantity":32,"url":"https://content2.onliner.by/falseurl.jpeg"},{"code":6,"name":"product6","price":649.24,"quantity":13,"url":"https://content2.onliner.by/falseurl.jpeg"}]
+module.exports = [{"code":1,"name":"beer-1","price":11,"quantity":0,"url":"http://fe.it-academy.by/Sites/0028978/images/beer/Game-of-Thrones-Dragon-1.jpeg"},{"code":2,"name":"beer-2","price":5.1,"quantity":12,"url":"http://fe.it-academy.by/Sites/0028978/images/beer/Game-of-Thrones-Bend-the-Knee.jpeg"},{"code":3,"name":"beer-3","price":13.3,"quantity":1,"url":"http://fe.it-academy.by/Sites/0028978/images/beer/Bend-the-Knee-1.jpeg"},{"code":4,"name":"beer-4","price":8,"quantity":14,"url":"http://fe.it-academy.by/Sites/0028978/images/beer/Game-of-Thrones-Tree-1.jpeg"},{"code":5,"name":"beer-5","price":8.5,"quantity":32,"url":"http://fe.it-academy.by/Sites/0028978/images/beer/beer-hobbit-33.png"},{"code":6,"name":"beer-6","price":9.54,"quantity":13,"url":"http://fe.it-academy.by/Sites/0028978/images/beer/beer-hobbit-22.png"}]
 
 /***/ }),
 /* 20 */
@@ -29258,7 +29258,7 @@ var Shop = function (_React$Component) {
             selectedProductId: null, // id выделенной строки с продуктом в настоящий момент
             viewMode: 0, //Режим отображения: 0 - ничего не отображает (по умолчанию), 1 - покажет карточку товара (компонент  ProductCard), 2 - режим редактирования (EditProduct), 3 - режим добавления (AddProduct)
 
-            isEnableButtonsSelections: true, // true - кнопки edit, delete, new product, переключение по строкам будут доступны, //false - недоступны
+            isEnableButtonsSelections: true, // true - кнопки edit, delete, new beer, переключение по строкам будут доступны, //false - недоступны
 
             componentProductCard: { //значения, передаваемые пропсами в компонент ProductCard
                 productCardName: null, //поле name
@@ -29302,19 +29302,19 @@ var Shop = function (_React$Component) {
                 //если кликнули по ранее не выделенной строке
                 var productCardH = _this.state.products.filter(function (item) {
                     return item.code === id;
-                }); //формируем данные для пропсов для компонента ProductCard 
+                }); //формируем данные для пропсов для компонента ProductCard
                 _this.setState({
-                    selectedProductId: id, // выделить строку с id (code) 
+                    selectedProductId: id, // выделить строку с id (code)
                     viewMode: 1, // устанавливаем режим "1" - показать компонент ProductCard
                     componentProductCard: {
-                        name: productCardH[0].name, //записываем в состояние пропс name для компонента ProductCard 
-                        price: productCardH[0].price //записываем в состояние пропс price для компонента ProductCard 
+                        name: productCardH[0].name, //записываем в состояние пропс name для компонента ProductCard
+                        price: productCardH[0].price //записываем в состояние пропс price для компонента ProductCard
                     }
                 });
             }
         }, _this.cbEnableButtonsSelections = function (bool) {
-            // запретить/разрешить кнопки edit, delete, new product, переключение по строкам 
-            _this.setState({ isEnableButtonsSelections: bool }); //true заблокирует кнопки edit, delete, new product, переключение по строкам
+            // запретить/разрешить кнопки edit, delete, new beer, переключение по строкам
+            _this.setState({ isEnableButtonsSelections: bool }); //true заблокирует кнопки edit, delete, new beer, переключение по строкам
         }, _this.cbToDefaultState = function () {
             //переключить в первоначальный вид
             _this.setState({
@@ -29460,11 +29460,11 @@ var Shop = function (_React$Component) {
                         products
                     )
                 ),
-                this.state.viewMode < 2 && //показывать кнопку "New product" только в режимах "0" и "1"
+                this.state.viewMode < 2 && //показывать кнопку "New beer" только в режимах "0" и "1"
                 _react2.default.createElement(
                     'button',
                     { onClick: this.cbAddProductRun },
-                    'New product'
+                    'New beer'
                 ),
                 this.state.viewMode == 1 && //если 1, то отрисовать ProductCard с пропсами из state
                 _react2.default.createElement(_ProductCard2.default, {
